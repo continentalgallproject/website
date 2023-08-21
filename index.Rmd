@@ -1,0 +1,27 @@
+---
+title: "Test CGP Site"
+output: 
+  html_document:
+    toc: FALSE
+---
+
+
+
+
+
+### The project
+
+Brief description of the projects aims
+
+
+### Contributions so far
+
+Insert a map here with golden rod range and contributions thus far. Maybe do an html widget with leaflet so it is interactive and users can get more info about each point if they click
+
+### Want to join?
+
+To contribute to this project, etc...
+
+
+
+

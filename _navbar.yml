@@ -1,0 +1,14 @@
+name: "Test Gall Project"
+title: "Test Gall Project"
+type: inverse
+left:
+  - text: "About"
+    href: ./about.html
+  - text: "Contribute"
+    href: ./contribute.html
+  - text: "Protocols"
+    href: ./protocols.html
+  - text: "Submit data"
+    href: ./submitdata.html
+  - text: "Contact"
+    href: ./contact.html

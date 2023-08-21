@@ -1,0 +1,8 @@
+---
+title: "Contribute"
+output: html_document
+---
+
+How to contribute to the project
+
+Link for form to send us the details 
