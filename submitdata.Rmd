@@ -3,4 +3,8 @@ title: "Submit data"
 output: html_document
 ---
 
-How to submit data and link to do so
+After mailing collected samples with the prepaid shipping envelope, submit your csv files of your data sheets and metadata sheets using the form linked below. Data should be entered in the google sheet as instructed in the protocol.
+
+**link to data submission form**
+
+

@@ -1,5 +1,5 @@
-name: "Test Gall Project"
-title: "Test Gall Project"
+name: "Continental Gall Project"
+title: "Continental Gall Project"
 type: inverse
 left:
   - text: "About"
@@ -10,5 +10,4 @@ left:
     href: ./protocols.html
   - text: "Submit data"
     href: ./submitdata.html
-  - text: "Contact"
-    href: ./contact.html
+

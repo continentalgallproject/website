@@ -1,0 +1,18 @@
+---
+title: "About"
+output: html_document
+---
+
+More through description of the project 
+
+Better picture than below just an example to test I can put in photo
+
+```{r, echo=FALSE, out.width = "500px", fig.align='center'}
+knitr::include_graphics("photos/Goldenrod_1r.jpg")
+```
+
+
+Description of the people? With photos
+
+
+

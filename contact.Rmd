@@ -1,6 +1,0 @@
----
-title: "Contact"
-output: html_document
----
-
-maybe page to contact us? But I think should be fine if it is on the home page or at the bottom of every page

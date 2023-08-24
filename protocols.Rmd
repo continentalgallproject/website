@@ -3,5 +3,51 @@ title: "Protocols"
 output: html_document
 ---
 
-Info on protocols and links to protocols. Maybe google docs?
+
+Below we have linked our collection protocols, in google docs and as a pdf. We have also linked google spreadsheets which should be copied for data entry and pdf datasheets if paper entry is easier in the field. Get in touch at [gall.size@utoronto.edu](gall.size@utoronto.edu) if you have any questions. Collected data should be submitted with the form under the submit data header, and samples should be mailed with the prepaid mailing envelope.
+ 
+ <br>
+ <br>
+
+#### Site selection and leaf collection protocol
+
+**Link to site selection and leaf collection protocol google doc** 
+**link to pdf of site selection and leaf collection protocol**
+
+**link to site selection and leaf collection google datasheet**
+
+**link to site selection and leaf collection datasheet pdf**
+ <br>
+ <br>
+
+#### Gall and *Eurosta solidagnis* collection and measurement protocol
+
+**Gall and *Eurosta solidagnis* collection and measurement protocol google doc** 
+
+**link to pdf of Gall and *Eurosta solidagnis* collection and measurement protocol**
+
+**link to Gall and *Eurosta solidagnis* collection and measurement google datasheet**
+
+**link to site Gall and *Eurosta solidagnis* collection and measurement datasheet pdf**
+ <br>
+ <br>
+
+
+#### Project extension protocols
+
+Congruence of gall fly and parasitoid phylogenies. As the gall fly splits into new species, each associated with a different goldenrod species, do the fly’s parasitoids and inquilines also split? 
+
+If interested, participants can further contribute by monitoring emergence phenology for the gall maker and the parasitoids/inquilines from 200 addiitonal galls. These parsitoids and inquilines should then be preserved and sent to Linyi Zhang for morphological and genetic analysis. 
+
+
+**Project extension protocols google doc** 
+
+**link to pdf Project extension protocols**
+
+**Project extension protocols google datasheet**
+
+**Project extension protocols datasheet pdf**
+
+
+
 

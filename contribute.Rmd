@@ -3,6 +3,8 @@ title: "Contribute"
 output: html_document
 ---
 
-How to contribute to the project
+If you are interested in participating, please fill out the form linked below and we will get in touch with you. 
 
-Link for form to send us the details 
+**Insert link to form**
+
+**Insert description of who is eligible to participate, time expectations, expectations around authorship, etc**

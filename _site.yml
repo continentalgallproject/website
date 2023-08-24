@@ -1,10 +1,7 @@
-name: "Test Gall Project"
+name: "Gall Project"
 output_dir: 'docs'
 output:
   html_document:
     theme: flatly
     highlight: tango
-    toc: true
-    toc_depth: 2
-    toc_float:
-      collapsed: false
+
