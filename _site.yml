@@ -1,7 +1,16 @@
-name: "Gall Project"
-output_dir: 'docs'
+title: "gall"
+output_dir: docs
+navbar:
+  title: "The Continental Gall Size Project"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+  position: sticky
 output:
   html_document:
-    theme: flatly
-    highlight: tango
+    theme: "journal"
+    includes:
+      after_body: footer.rmd
 
