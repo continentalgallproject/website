@@ -8,11 +8,11 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Contribute"
-      href: ./contribute.html
+      href: contribute.html
     - text: "Protocols"
-      href: ./protocols.html
+      href: protocols.html
     - text: "Submit Data"
-      href: ./submitdata.html
+      href: submitdata.html
   position: sticky
 output:
   html_document:
