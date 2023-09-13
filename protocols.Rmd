@@ -2,9 +2,18 @@
 title: "Protocols"
 output: html_document
 ---
+```{css, echo = FALSE}
+body {
+  background-color: white;
+  color: black;
+}
+.main-container{
+  max-width: 60%: 
+}
+```
 
 
-Below we have linked our collection protocols, in google docs and as a pdf. We have also linked google spreadsheets which should be copied for data entry and pdf datasheets if paper entry is easier in the field. Get in touch at [gall.size@utoronto.edu](gall.size@utoronto.edu) if you have any questions. Collected data should be submitted with the form under the submit data header, and samples should be mailed with the prepaid mailing envelope.
+Below we have linked our collection protocols, in google docs and as a pdf. We have also linked google spreadsheets which should be copied for data entry and pdf datasheets if paper entry is easier in the field. Get in touch at [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca) if you have any questions. Collected data should be submitted with the form under the submit data header, and samples should be mailed with the prepaid mailing envelope.
  
  <br>
  <br>

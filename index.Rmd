@@ -1,41 +1,57 @@
 ---
-title: 
+title: Home
 output: html_document
 ---
 ```{css, echo = FALSE}
-.main-container {
-  max-width: 60%; 
-}
 body {
-  background-color: lightgrey;
+  background-color: white;
   color: black;
 }
+.main-container{
+  max-width: 60%: 
+}
+```
+<br>
 
+
+<font size= "4"> 
+
+Introducing the Continental Gall Size Project, a two-year study on clinal variation in the goldenrod gallfly system.<br>
+
+**We are recruiting collaborators** to help conduct a systematic assessment of goldenrod-gallfly-predator interactions with the ultimate aim of determining whether optimal gall size varies latitudinally.  
+
+<br>
+<center> **Read more about the system <a href= about.html>here</a>** </center></font>
+<br>
+
+```{r, echo=FALSE, out.width = "300px", fig.align ='center', dpi=72, fig.cap= "Left: Goldenrod gallfly (*Eurosta solidaginis*) ; Right: gall induced by oviposition on goldenrod"}
+knitr::include_graphics("photos/gall_fly.png")
 ```
 
 <br>
 
 
-<font size= "3"> Introducing the Continental Gall Size Project </font>
-
-
-```{r, echo=FALSE, out.width = "400px", fig.align='center', dpi=72, fig.cap= "Left: Goldenrod gallfly (*Eurosta solidaginis*) ; Right: gall induced by oviposition"}
-knitr::include_graphics("gall_photos/gall_fly.png")
+```{css, echo = FALSE}
+.wrapper{
+display:flex;
+justify-content:center;
+width:100%
+}
 ```
 
-
-**We are looking for collaborators across North America for a two-year study of clinal variation in the goldenrod gallfly system**. 
-
-<br>
-
-```{r, echo = FALSE,out.width = "600px", fig.align='center', dpi=72, fig.cap= "Current sampling sites"}
+<div class="wrapper">
+```{r, echo = FALSE, message = FALSE, out.width = "600px", fig.align = 'center', dpi=72, fig.cap = "Current sampling sites <br> [Spreadsheet](https://docs.google.com/spreadsheets/d/1Yd432stbXw3fnGy3I2M6NvnGQdhpys0vERXPw0_C9yc/edit#gid=0) "}
 library(leaflet)
-
-map=leaflet()
+library(googlesheets4)
+options(gargle_oauth_email = TRUE)
+mapdata=read_sheet("https://docs.google.com/spreadsheets/d/1Yd432stbXw3fnGy3I2M6NvnGQdhpys0vERXPw0_C9yc/edit#gid=0")
+map=leaflet(data=mapdata)
 map=addTiles(map)
-map= setView(map,-74.0060,40.7128, zoom=4) %>% addMarkers(-79.5, 43.9, label= "Koffler Scientific Reserve, University of Toronto") %>% addMarkers(-77, 41, label= "Collection Sites in Pennsylvania, 1985-1988")
+map= setView(map,-74.0060,40.7128, zoom=4) %>% addMarkers(lng= ~Longitude,lat = ~Latitude, label= ~as.character(Name)) 
 map
+
 ```
+</div>
 
 
 

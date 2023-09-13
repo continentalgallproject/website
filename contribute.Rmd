@@ -2,6 +2,15 @@
 title: "Contribute"
 output: html_document
 ---
+```{css, echo = FALSE}
+body {
+  background-color: white;
+  color: black;
+}
+.main-container{
+  max-width: 60%: 
+}
+```
 
 If you are interested in participating, please fill out the form linked below and we will get in touch with you. 
 

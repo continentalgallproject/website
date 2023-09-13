@@ -1,0 +1,11 @@
+
+
+
+
+<br>
+<br>
+<br>
+<center>Written in R and RMarkdown. Source code available on 
+<a href="https://github.com/continentalgallproject/website">GitHub</a> </center>
+
+<center><a href= mailto: gall.size@utoronto.ca>gall.size@utoronto.ca</a> </center>

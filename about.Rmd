@@ -4,7 +4,7 @@ output: html_document
 ---
 ```{css, echo = FALSE}
 body {
-  background-color: lightgrey;
+  background-color: white;
   color: black;
 }
 .main-container{
@@ -13,13 +13,13 @@ body {
 ```
 <br>
 
-<font size= "4"> A brief look at the system:
+<font size= "4"> A brief look at the goldenrod-gallfly system:
 
 The goldenrod gallfly is a textbook example of stabilizing selection. This insect lays offspring in the stem of a goldenrod plant, inducing a spherical stem swelling – a gall. </font>
 <br>
 <br>
 ```{r, echo=FALSE, out.width = "400px", fig.align='center', dpi=72, fig.cap= "Left: Goldenrod gallfly (*Eurosta solidaginis*) ; Right: gall induced by oviposition "}
-knitr::include_graphics("gall_photos/gall_fly.png")
+knitr::include_graphics("photos/gall_fly.png")
 ```
 <br>
 <br>
@@ -27,7 +27,7 @@ knitr::include_graphics("gall_photos/gall_fly.png")
 <br>
 <br>
 ```{r, echo=FALSE, out.width = "300px", fig.align='center', dpi=72, fig.cap= "A gallfly predator, the parasitoid wasp, *Eurytoma gigantea*" }
-knitr::include_graphics("gall_photos/parasitoid.jpg")
+knitr::include_graphics("photos/parasitoid.jpg")
 ```
 <br>
 <br>
@@ -35,7 +35,7 @@ knitr::include_graphics("gall_photos/parasitoid.jpg")
 <br>
 <br>
 ```{r, echo=FALSE, out.width = "150px", fig.align='center', dpi=72, fig.cap="Another gallfly predator, the Downy Woodpecker" }
-knitr::include_graphics("gall_photos/woodpecker.png")
+knitr::include_graphics("photos/woodpecker.png")
 ```
 <br>
 <br>
@@ -43,7 +43,7 @@ knitr::include_graphics("gall_photos/woodpecker.png")
 <br>
 <br>
 ```{r, echo=FALSE, out.width = "300px", fig.align='center', dpi=72, fig.cap= "Gall size distribution example from Ontario sampling site at the Koffler Scientific Reserve"}
-knitr::include_graphics("gall_photos/diameter.png")
+knitr::include_graphics("photos/diameter.png")
 ```
 <br>
 <br>

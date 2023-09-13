@@ -17,6 +17,6 @@ navbar:
 output:
   html_document:
     theme: "journal"
-    includes:
-      after_body: footer.rmd
+    include:
+      after_body: "footer.Rmd"
 
