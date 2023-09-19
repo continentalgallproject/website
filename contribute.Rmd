@@ -14,6 +14,5 @@ body {
 
 If you are interested in participating, please fill out the form linked below and we will get in touch with you. 
 
-**Insert link to form**
+[Interest form](https://docs.google.com/forms/d/e/1FAIpQLSe0DKafO3Su9IfUvuMwPkJyMhFnhLohii3oUpJovoZyuzE-9Q/viewform?usp=sf_link)
 
-**Insert description of who is eligible to participate, time expectations, expectations around authorship, etc**

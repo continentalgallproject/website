@@ -19,27 +19,39 @@ Below we have linked our collection protocols, in google docs and as a pdf. We h
  <br>
 
 #### Site selection and leaf collection protocol
+Below is linked a google doc and a pdf of the protocol for selecting an appropriate site, collecting leaves, and if interested, dissecting out and collecting insects from galls.
 
-**Link to site selection and leaf collection protocol google doc** 
-**link to pdf of site selection and leaf collection protocol**
+<br>
+[Site selection and leaf collection protocol](https://docs.google.com/document/d/1ZxHgqVQHtiOOjCGUTkL5yJoaSvxxeOu_1WuBigJXdi8/edit?usp=sharing)
+<br>
+[PDF of Site selection and leaf collection protocol](/protocols/pdfs/leafcollection190923.pdf). 
 
-**link to site selection and leaf collection google datasheet**
+<br>
+Before mailing collected leaf samples and optional insects with the prepaid shipping envelope, please submit this form so we have neccesary information on your samples. 
 
-**link to site selection and leaf collection datasheet pdf**
+[Leaf sample submission form](https://docs.google.com/forms/d/e/1FAIpQLSdOT1i9Y4e-9hLGyq0PO9CA7Z5b7epIymy-pKDRhlRQJjiXAg/viewform?usp=sf_link)
+
  <br>
  <br>
 
-#### Gall and *Eurosta solidagnis* collection and measurement protocol
+#### Gall collection, measurement, and dissection protocol
 
-**Gall and *Eurosta solidagnis* collection and measurement protocol google doc** 
+[Gall collection, measurement, and dissection protocol](https://docs.google.com/document/d/1ccK3HJX73d1Z9s0jEHe5WyY5ZlokbXWewWurfiNG6XU/edit?usp=sharing)
+<br>
+[NEED TO ADD PDF of Site selection and leaf collection protocol WHEN COMPLETE](/protocols/pdfs/leafcollection190923.pdf). 
 
-**link to pdf of Gall and *Eurosta solidagnis* collection and measurement protocol**
+**NEED TO ADD link to Gall and *Eurosta solidagnis* collection and measurement google datasheet**
 
-**link to Gall and *Eurosta solidagnis* collection and measurement google datasheet**
+**NEED TO ADD link to site Gall and *Eurosta solidagnis* collection and measurement datasheet pdf**
 
-**link to site Gall and *Eurosta solidagnis* collection and measurement datasheet pdf**
+After you have collected your gall data, please submit this form so we have neccesary information on your samples. 
+
+[Gall data submission form](https://docs.google.com/forms/d/e/1FAIpQLSfk_eUa8WQ4Rp4WxrAdC_IiGDEeJ620sN0zKJxZjZVU0fWHlg/viewform?usp=sf_link)
+
  <br>
  <br>
+ 
+ 
 
 
 #### Project extension protocols
@@ -49,13 +61,13 @@ Congruence of gall fly and parasitoid phylogenies. As the gall fly splits into n
 If interested, participants can further contribute by monitoring emergence phenology for the gall maker and the parasitoids/inquilines from 200 addiitonal galls. These parsitoids and inquilines should then be preserved and sent to Linyi Zhang for morphological and genetic analysis. 
 
 
-**Project extension protocols google doc** 
+**NEED TO ADD Project extension protocols google doc** 
 
-**link to pdf Project extension protocols**
+**NEED TO ADD link to pdf Project extension protocols**
 
-**Project extension protocols google datasheet**
+**NEED TO ADD Project extension protocols google datasheet**
 
-**Project extension protocols datasheet pdf**
+**NEED TO ADD Project extension protocols datasheet pdf**
 
 
 

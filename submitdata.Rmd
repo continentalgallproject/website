@@ -12,8 +12,20 @@ body {
 }
 ```
 
-After mailing collected samples with the prepaid shipping envelope, submit your csv files of your data sheets and metadata sheets using the form linked below. Data should be entered in the google sheet as instructed in the protocol.
+**To submit leaf samples**
+<br>
+Before mailing collected leaf samples and optional insects with the prepaid shipping envelope, please submit this form so we have neccesary information on your samples. 
 
-**link to data submission form**
+[Leaf sample submission form](https://docs.google.com/forms/d/e/1FAIpQLSdOT1i9Y4e-9hLGyq0PO9CA7Z5b7epIymy-pKDRhlRQJjiXAg/viewform?usp=sf_link)
+
+
+**To submit gall datasheets**
+<br>
+To submit gall measurement data, submit your csv files of your data sheets and metadata sheets using the form linked below. Data should be entered in the google sheet as instructed in the protocol.
+
+[Data submission form](https://docs.google.com/forms/d/e/1FAIpQLSdOT1i9Y4e-9hLGyq0PO9CA7Z5b7epIymy-pKDRhlRQJjiXAg/viewform?usp=sf_link)
+
+
+
 
 
