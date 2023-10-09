@@ -40,14 +40,17 @@ width:100%
 ```
 
 <div class="wrapper">
-```{r, echo = FALSE, message = FALSE, out.width = "600px", fig.align = 'center', dpi=72, fig.cap = "Current sampling sites <br> [Spreadsheet](https://docs.google.com/spreadsheets/d/1Yd432stbXw3fnGy3I2M6NvnGQdhpys0vERXPw0_C9yc/edit#gid=0) "}
+```{r, echo = FALSE, message = FALSE, out.width = "600px", fig.align = 'center', dpi=72, fig.cap = "Current sampling sites <br> "}
 library(leaflet)
 library(googlesheets4)
 options(gargle_oauth_email = TRUE)
-mapdata=read_sheet("https://docs.google.com/spreadsheets/d/1Yd432stbXw3fnGy3I2M6NvnGQdhpys0vERXPw0_C9yc/edit#gid=0")
+mapdata=read_sheet("https://docs.google.com/spreadsheets/d/18IOWsex2gSMCFK3cfSJF3y4AfsEdyszM54Onqmc6OIA/edit#gid=0")
+
+
+options(gargle_oauth_email = TRUE)
 map=leaflet(data=mapdata)
 map=addTiles(map)
-map= setView(map,-74.0060,40.7128, zoom=4) %>% addMarkers(lng= ~Longitude,lat = ~Latitude, label= ~as.character(Name)) 
+map= setView(map,-74.0060,40.7128, zoom=4) %>% addMarkers(lng= ~Longitude,lat = ~Latitude, label= ~as.character(Place)) 
 map
 
 ```
@@ -61,7 +64,7 @@ map
 
 <br>
 
-Be Part of the Project
+[Be Part of the Project](https://docs.google.com/forms/d/e/1FAIpQLSe0DKafO3Su9IfUvuMwPkJyMhFnhLohii3oUpJovoZyuzE-9Q/viewform?usp=sf_link)
 
 <br>
 
@@ -69,7 +72,7 @@ Be Part of the Project
 
 
 
-. 
+
 
 
 

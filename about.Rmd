@@ -52,3 +52,35 @@ knitr::include_graphics("photos/diameter.png")
 <br>
 
 <br>
+
+<font size= "4">**Leading the project:**
+
+```{r, echo=FALSE, out.width = "300px"}
+knitr::include_graphics("photos/Zhang.jpeg")
+```
+
+Dr. Linyi Zhang
+
+Department of Biology
+
+The George Washington University
+
+<br>
+
+<br>
+```{r, echo=FALSE, out.width = "300px"}
+knitr::include_graphics("photos/Weis.jpeg")
+```
+
+Dr. Art Weis
+
+Department of Ecology and Evolutionary Biology
+
+The University of Toronto
+
+</font>
+
+
+
+
+
