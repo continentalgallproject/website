@@ -40,7 +40,7 @@ width:100%
 ```
 
 <div class="wrapper">
-```{r, echo = FALSE, message = FALSE, out.width = "600px", fig.align = 'center', dpi=72, fig.cap = "Current sign up affiliations <br> "}
+```{r, echo = FALSE, message = FALSE, out.width = "600px", fig.align = 'center', dpi=72, fig.cap = "Current sign up affiliations and collecting sites<br> "}
 library(leaflet)
 library(googlesheets4)
 options(gargle_oauth_email = TRUE)
