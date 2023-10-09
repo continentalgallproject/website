@@ -40,7 +40,7 @@ width:100%
 ```
 
 <div class="wrapper">
-```{r, echo = FALSE, message = FALSE, out.width = "600px", fig.align = 'center', dpi=72, fig.cap = "Current sampling sites <br> "}
+```{r, echo = FALSE, message = FALSE, out.width = "600px", fig.align = 'center', dpi=72, fig.cap = "Current sign up affiliations <br> "}
 library(leaflet)
 library(googlesheets4)
 options(gargle_oauth_email = TRUE)
@@ -64,7 +64,7 @@ map
 
 <br>
 
-[Be Part of the Project](https://docs.google.com/forms/d/e/1FAIpQLSe0DKafO3Su9IfUvuMwPkJyMhFnhLohii3oUpJovoZyuzE-9Q/viewform?usp=sf_link)
+[Do you fill a gap in our sampling? Get info on joining the project here!](https://docs.google.com/forms/d/e/1FAIpQLSe0DKafO3Su9IfUvuMwPkJyMhFnhLohii3oUpJovoZyuzE-9Q/viewform?usp=sf_link)
 
 <br>
 
