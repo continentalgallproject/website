@@ -45,11 +45,13 @@ Before mailing collected leaf samples and optional insects with the prepaid ship
  <br>
 
 ### Gall collection, measurement, and dissection protocol
-Below is linked the protocol for Spring gall measurement and dissection. We have also linked a PDF of the datasheet and an example of a filled out datasheet.
+Below is linked the protocol and corresponding datasheets for Spring gall measurement and dissection. Data entry is done in two phases: 1) manual data entry while collecting data using the attached datasheets and 2) entering this data into the csv or excel file linked below. An image of your paper data sheet and the digital file is then submitted to us through the [data submission form](https://docs.google.com/forms/d/e/1FAIpQLSfk_eUa8WQ4Rp4WxrAdC_IiGDEeJ620sN0zKJxZjZVU0fWHlg/viewform?usp=sf_link). 
 <br>
 
 [Site selection and leaf collection protocol WHEN COMPLETE](pdfs/protocols/leafcollection190923.pdf). 
 <br>
+
+##### Datasheet #1: Manual entry during data collection
 
 [Gall collection datasheet](pdfs/datasheets/gallcollectiondatasheet101023.pdf)
 <br>
@@ -57,9 +59,18 @@ Below is linked the protocol for Spring gall measurement and dissection. We have
 [Example filled out gall collection datasheet](pdfs/datasheets/examplegallcollectiondatasheet101023.pdf)
 <br>
 
+##### Datasheet #2: Digital entry for submission
+
+[Excel gall collection datasheet](files/datasheets/galldata_entry.xls)
+<br>
+
+[CSV gall collection datasheet](files/datasheets/galldata_entry.csv)
+<br>
+
+
 ##### Data submission form
 
-After you have collected your gall data, please submit this form so we have an image or pdf of your datasheet and necessary information on your samples. 
+After you have collected your gall data, please use this form to submit your data file (.csv or .xls), an image of your paper datasheet, and necessary information on your samples. 
 
 [Gall data submission form](https://docs.google.com/forms/d/e/1FAIpQLSfk_eUa8WQ4Rp4WxrAdC_IiGDEeJ620sN0zKJxZjZVU0fWHlg/viewform?usp=sf_link)
 
