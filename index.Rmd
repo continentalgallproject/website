@@ -47,10 +47,44 @@ options(gargle_oauth_email = TRUE)
 mapdata=read_sheet("https://docs.google.com/spreadsheets/d/18IOWsex2gSMCFK3cfSJF3y4AfsEdyszM54Onqmc6OIA/edit#gid=0")
 
 
-options(gargle_oauth_email = TRUE)
+options(gargle_oauth_email = TRUE) #authorizing google sheet access, to authorize new sheet, eneter "1" after selection
 map=leaflet(data=mapdata)
 map=addTiles(map)
-map= setView(map,-74.0060,40.7128, zoom=4) %>% addMarkers(lng= ~Longitude,lat = ~Latitude, label= ~as.character(Place)) 
+#map= setView(map,-74.0060,40.7128, zoom=4) %>% addMarkers(lng= ~Longitude,lat = ~Latitude, label= ~as.character(PI_name)) 
+#defining color palette
+pal <- colorFactor(
+  c("olivedrab", "mediumpurple"),
+  # colors depend on the type of site
+  domain = mapdata$Type,
+  )
+map= setView(map, -89.784968, 40.457667, zoom=3.4) %>% 
+  #creating markers with custom labels and colors
+  addCircleMarkers(data = mapdata,
+                   lng= ~Longitude,
+                   lat = ~Latitude,
+                   opacity=0.6,
+                   weight=3,
+                   radius = 3,
+                   color = ~pal(Type),
+                   fillOpacity = 0.85,
+                   label= paste(
+                     "Institutional Affliliation:",
+                     mapdata$Place, "<br>",
+                     "Participant:", 
+                     mapdata$PI_name
+                     ) %>% 
+                     lapply(htmltools::HTML),
+  )%>%
+  #adding legend
+ addLegend(
+   data=mapdata,
+   pal=pal,
+   values = ~Type,
+   position= "bottomleft",
+   title = "Marker location signifies:",
+   opacity=0.80
+ )
+
 map
 
 ```
