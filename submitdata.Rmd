@@ -21,7 +21,7 @@ Before mailing collected leaf samples and optional insects with the prepaid ship
 
 **To submit gall datasheets**
 <br>
-To submit gall measurement data, upload your excel sheet or csv file with gall measurement data and a scanned image (or high quality photograph) of your paper data sheets. Data should be entered in the datasheet as instructed in the protocol. Datasheets for manual data collection during measurement and Excel/CSV sheets for subsequent data entry are both found on the protocols page. 
+To submit gall measurement data, upload your excel sheet file with gall measurement data and a scanned image (or high quality photograph) of your paper data sheets. For multiple collecting sites, please upload a data file for each. Datafiles should be named "threelettercode".xls. Data hould be entered in the datasheet as instructed in the protocol. Datasheets for manual data collection during measurement and Excel sheets for subsequent data entry are both found on the protocols page. 
 
 [Data submission form](https://forms.gle/1F6T3jjWdLuvuSuu6)
 
