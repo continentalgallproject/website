@@ -43,6 +43,7 @@ width:100%
 ```{r, echo = FALSE, message = FALSE, out.width = "600px", fig.align = 'center', dpi=72, fig.cap = "Current sign up affiliations and collecting sites<br> "}
 library(leaflet)
 library(googlesheets4)
+library(sf)
 options(gargle_oauth_email = TRUE)
 mapdata=read_sheet("https://docs.google.com/spreadsheets/d/18IOWsex2gSMCFK3cfSJF3y4AfsEdyszM54Onqmc6OIA/edit#gid=0")
 
@@ -50,7 +51,10 @@ mapdata=read_sheet("https://docs.google.com/spreadsheets/d/18IOWsex2gSMCFK3cfSJF
 options(gargle_oauth_email = TRUE) #authorizing google sheet access, to authorize new sheet, eneter "1" after selection
 map=leaflet(data=mapdata)
 map=addTiles(map)
-#map= setView(map,-74.0060,40.7128, zoom=4) %>% addMarkers(lng= ~Longitude,lat = ~Latitude, label= ~as.character(PI_name)) 
+
+#loading in range GEOJSON
+range <- geojsonio::geojson_read("~/Desktop/website/files/rangetry2.geojson", what = "sp") 
+
 #defining color palette
 pal <- colorFactor(
   c("olivedrab", "mediumpurple"),
@@ -59,6 +63,8 @@ pal <- colorFactor(
   )
 map= setView(map, -89.784968, 40.457667, zoom=3.4) %>% 
   #creating markers with custom labels and colors
+  addPolygons(data=range, color = "azure4", weight = 1, smoothFactor = 0.5,
+  opacity = .2, fillOpacity = 0.2, group="Approximate gall fly range")%>%
   addCircleMarkers(data = mapdata,
                    lng= ~Longitude,
                    lat = ~Latitude,
@@ -74,6 +80,7 @@ map= setView(map, -89.784968, 40.457667, zoom=3.4) %>%
                      mapdata$PI_name
                      ) %>% 
                      lapply(htmltools::HTML),
+                   group="Location markers"
   )%>%
   #adding legend
  addLegend(
@@ -83,7 +90,13 @@ map= setView(map, -89.784968, 40.457667, zoom=3.4) %>%
    position= "bottomleft",
    title = "Marker location signifies:",
    opacity=0.80
- )
+ )%>%
+#addLayersControl
+addLayersControl(
+    overlayGroups = c("Approximate gall fly range"),
+    options = layersControlOptions(collapsed = FALSE)
+  )%>% 
+  hideGroup("Approximate gall fly range")
 
 map
 
