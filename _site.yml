@@ -13,6 +13,8 @@ navbar:
       href: protocols.html
     - text: "Submit Data"
       href: submitdata.html
+    - text: "Authorship Guidelines"
+      href: authorshipguidelines.html
   position: sticky
 output:
   html_document:
