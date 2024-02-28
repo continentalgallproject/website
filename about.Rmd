@@ -82,3 +82,22 @@ Department of Biology
 The George Washington University
 
 
+
+```{r, echo=FALSE, out.width = "300px"}
+knitr::include_graphics("photos/Hood.jpeg")
+```
+
+Dr. Glen Hood
+
+Biological Sciences
+
+Wayne State University
+
+</font>
+
+<br>
+
+<br>
+
+
+
