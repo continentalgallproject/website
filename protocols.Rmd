@@ -25,12 +25,12 @@ Below we have linked our collection protocols, in google docs and as a pdf. We h
  
  
 ### Gall collection, measurement, and dissection protocol
-Below we've linked the datasheets for Spring gall measurement and dissection. Data entry is done in two phases: 1) manual data entry while collecting data using the attached datasheet and 2) entering this data into the excel file linked below. An image of your paper data sheet and the digital file is then emailed to [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca) and submitted to us through the [data submission form](https://docs.google.com/forms/d/e/1FAIpQLSfk_eUa8WQ4Rp4WxrAdC_IiGDEeJ620sN0zKJxZjZVU0fWHlg/viewform?usp=sf_link). 
+Below we've linked the datasheets for Spring gall measurement and dissection. Data entry is done in two phases: 1) manual data entry while collecting data using the attached datasheet and 2) entering this data into the excel file linked below. An image of your paper data sheet and the digital file is then emailed to [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca) and submitted to us through the [data submission form](https://docs.google.com/forms/d/e/1FAIpQLSfk_eUa8WQ4Rp4WxrAdC_IiGDEeJ620sN0zKJxZjZVU0fWHlg/viewform?usp=sf_link). If you are dissecting galls after emergence, likely after rearing them out, we have also linked the key and datasheets below.
 <br>
 
 <br>
 
-##### Datasheet #1: Manual entry during data collection
+##### Gall datasheet #1: Manual entry during data collection
 
 [Gall collection datasheet](pdfs/datasheets/gallcollectiondatasheet101023.pdf)
 <br>
@@ -38,15 +38,34 @@ Below we've linked the datasheets for Spring gall measurement and dissection. Da
 [Example filled out gall collection datasheet](pdfs/datasheets/examplegallcollectiondatasheet101023.pdf)
 <br>
 
-##### Datasheet #2: Digital entry for submission
+##### Gall datasheet #2: Digital entry for submission
 
 [Excel gall collection datasheet](files/datasheets/galldata_entry.xls)
 <br>
 
+<br>
 
-##### Data submission form
+#### Dissecting galls after emergence
 
-After you have collected your gall data, please use this form to submit your data file (.csv or .xls), an image of your paper datasheet, and necessary information on your samples. 
+[Protocol to dissection after emergence](pdfs/protocols/Emergedgallprotocol.pdf)
+<br>
+
+##### Emerged gall datasheet #1: Manual entry during data collection
+
+[Emerged gall paper datasheet](pdfs/datasheets/EmergedDatasheet.pdf)
+<br>
+
+##### Emerged gall datasheet #2: Digital entry for submission
+
+[Excel emerged gall collection datasheet](files/datasheets/emergedgall.xls)
+<br>
+
+<br>
+
+
+#### Data submission form
+
+After you have collected your gall data, please use this form to submit your data file (.csv or .xls), an image of your paper datasheet, and necessary information on your samples (including tracking number if shipping) . If you have issues with the form, please email [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca)  and [o.bronzomunich@email.gwu.edu](mailto:o.bronzomunich@email.gwu.edu). 
 
 [Gall data submission form](https://docs.google.com/forms/d/e/1FAIpQLSfk_eUa8WQ4Rp4WxrAdC_IiGDEeJ620sN0zKJxZjZVU0fWHlg/viewform?usp=sf_link)
 
