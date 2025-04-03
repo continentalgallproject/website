@@ -29,7 +29,7 @@ USA
  <br>
  <br>
  
-### [Project manual](pdfs/protocols/CGPprotocolsApr2025.pdf)
+### [Project manual](pdfs/protocols/CGPprotocolsApr32025.pdf)
  
 <br>
  <br>
