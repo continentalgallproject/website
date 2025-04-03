@@ -13,19 +13,38 @@ body {
 ```
 
 
-Below we have linked our collection protocols, in google docs and as a pdf. We have also linked google spreadsheets which should be copied for data entry and pdf datasheets if paper entry is easier in the field. Get in touch at [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca) if you have any questions. Collected data should be submitted with the form under the submit data header, and samples should be mailed with the prepaid mailing envelope.
+Below we have linked our collection protocols, in google docs and as a pdf. We have also linked google spreadsheets which should be copied for data entry and pdf datasheets if paper entry is easier in the field. Get in touch at [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca) if you have any questions. Collected data should be submitted with the form under the submit data header, and samples should be mailed to the Zhang Lab with the tracking number emailed to [o.bronzomunich@gwu.edu](mailto:o.bronzomunich@gwu.edu).
+ <br>
  
+Zhang Lab Mailing Address:
+
+Zhang Lab <br>
+George Washington University <br>
+800 22nd St. NW <br>
+Suite 6000 <br>
+Washington, DC 20052-0021 <br>
+USA
+
+
  <br>
  <br>
  
-### [Project manual](pdfs/protocols/Manual091024.pdf)
+### [Project manual](pdfs/protocols/CGPprotocolsApr2025.pdf)
  
 <br>
  <br>
  
  
 ### Gall collection, measurement, and dissection protocol
-Below we've linked the datasheets for Spring gall measurement and dissection. Data entry is done in two phases: 1) manual data entry while collecting data using the attached datasheet and 2) entering this data into the excel file linked below. An image of your paper data sheet and the digital file is then emailed to [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca) and submitted to us through the [data submission form](https://docs.google.com/forms/d/e/1FAIpQLSfk_eUa8WQ4Rp4WxrAdC_IiGDEeJ620sN0zKJxZjZVU0fWHlg/viewform?usp=sf_link). If you are dissecting galls after emergence, likely after rearing them out, we have also linked the key and datasheets below.
+Below we've linked the datasheets for Spring gall measurement and dissection. Data entry is done in two phases: 1) manual data entry while collecting data using the attached datasheet and 2) entering this data into the excel file linked below. An image of your paper data sheet and the digital file is then emailed to [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca) and submitted to us through the [data submission form](https://docs.google.com/forms/d/e/1FAIpQLSfk_eUa8WQ4Rp4WxrAdC_IiGDEeJ620sN0zKJxZjZVU0fWHlg/viewform?usp=sf_link). Samples sorted by size and type are then shipped to the Zhang Lab for verification and genomic work. 
+
+<br>
+
+If you are shipping from Canada, please email [o.bronzomunich@gwu.edu](mailto:o.bronzomunich@gwu.edu) to ensure all proper customs forms are submitted prior to shipment.
+
+<br>
+
+If you are dissecting galls after emergence, likely after rearing them out, we have also linked the key and datasheets below.
 <br>
 
 <br>
@@ -65,7 +84,7 @@ Below we've linked the datasheets for Spring gall measurement and dissection. Da
 
 #### Data submission form
 
-After you have collected your gall data, please use this form to submit your data file (.csv or .xls), an image of your paper datasheet, and necessary information on your samples (including tracking number if shipping) . If you have issues with the form, please email [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca)  and [o.bronzomunich@email.gwu.edu](mailto:o.bronzomunich@email.gwu.edu). 
+After you have collected your gall data, please use this form to submit your data file (.csv or .xls), an image of your paper datasheet, and necessary information on your samples (including tracking number for shipping) . If you have issues with the form, please email [gall.size@utoronto.ca](mailto:gall.size@utoronto.ca)  and [o.bronzomunich@email.gwu.edu](mailto:o.bronzomunich@email.gwu.edu). 
 
 [Gall data submission form](https://docs.google.com/forms/d/e/1FAIpQLSfk_eUa8WQ4Rp4WxrAdC_IiGDEeJ620sN0zKJxZjZVU0fWHlg/viewform?usp=sf_link)
 
