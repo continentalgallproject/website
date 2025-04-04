@@ -45,58 +45,53 @@ width:100%
 library(leaflet)
 library(googlesheets4)
 library(sf)
-options(gargle_oauth_email = TRUE)
-mapdata=read_sheet("https://docs.google.com/spreadsheets/d/18IOWsex2gSMCFK3cfSJF3y4AfsEdyszM54Onqmc6OIA/edit#gid=0")
+
+# Explicitly authenticate within the chunk to ensure authentication
+#gs4_auth(scopes = "https://www.googleapis.com/auth/spreadsheets.readonly")
+
+# Read the Google Sheet to get data
+mapdata <- read.csv("~/Desktop/website/files/Currentsites.csv", blank.lines.skip = TRUE)
+
+mapdata$Type<-factor(mapdata$Type)
+
+mapdata$Type <- droplevels(mapdata$Type)
 
 
-options(gargle_oauth_email = TRUE) #authorizing google sheet access, to authorize new sheet, eneter "1" after selection
-map=leaflet(data=mapdata)
-map=addTiles(map)
 
-#loading in range GEOJSON
-range <- geojsonio::geojson_read("~/Desktop/website/files/rangetry2.geojson", what = "sp") 
+# Loading in range GEOJSON
+range <- geojsonio::geojson_read("~/Desktop/website/files/rangetry2.geojson", what = "sp")
 
-#defining color palette
+# Defining color palette
 pal <- colorFactor(
-  c("olivedrab", "mediumpurple"),
-  # colors depend on the type of site
-  domain = mapdata$Type,
-  )
-map= setView(map, -89.784968, 40.457667, zoom=3.4) %>% 
-  #creating markers with custom labels and colors
-  addPolygons(data=range, color = "azure4", weight = 1, smoothFactor = 0.5,
-  opacity = .2, fillOpacity = 0.2, group="Approximate gall fly range")%>%
-  addCircleMarkers(data = mapdata,
-                   lng= ~Longitude,
-                   lat = ~Latitude,
-                   opacity=0.6,
-                   weight=3,
-                   radius = 3,
-                   color = ~pal(Type),
-                   fillOpacity = 0.85,
-                   label= paste(
-                     "Institutional Affliliation:",
-                     mapdata$Place, "<br>",
-                     "Participant:", 
-                     mapdata$PI_name
-                     ) %>% 
-                     lapply(htmltools::HTML),
-                   group="Location markers"
-  )%>%
-  #adding legend
- addLegend(
-   data=mapdata,
-   pal=pal,
-   values = ~Type,
-   position= "bottomleft",
-   title = "Marker location signifies:",
-   opacity=0.80
- )%>%
-#addLayersControl
-addLayersControl(
+  c("olivedrab", "mediumpurple", "darkgoldenrod4"),  # colors depend on the type of site
+  domain = mapdata$Type
+)
+
+# Set up the map
+map <- leaflet(data = mapdata) %>%
+  addTiles() %>%
+  setView(lng = -89.784968, lat = 40.457667, zoom = 3.4) %>%
+  addPolygons(
+    data = range, color = "azure4", weight = 1, smoothFactor = 0.5,
+    opacity = 0.2, fillOpacity = 0.2, group = "Approximate gall fly range"
+  ) %>%
+  addCircleMarkers(
+    data = mapdata,
+    lng = ~Longitude, lat = ~Latitude,
+    opacity = 0.6, weight = 3, radius = 3,
+    color = ~pal(Type), fillOpacity = 0.85,
+    label = paste("Institutional Affiliation:", mapdata$Place, "<br>", "Participant:", mapdata$PI_name) %>%
+      lapply(htmltools::HTML),
+    group = "Location markers"
+  ) %>%
+  addLegend(
+    data = mapdata, pal = pal, values = ~Type,
+    position = "bottomleft", title = "Marker location signifies:", opacity = 0.80
+  ) %>%
+  addLayersControl(
     overlayGroups = c("Approximate gall fly range"),
     options = layersControlOptions(collapsed = FALSE)
-  )%>% 
+  ) %>%
   hideGroup("Approximate gall fly range")
 
 map

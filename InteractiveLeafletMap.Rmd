@@ -47,10 +47,16 @@ library(googlesheets4)
 library(sf)
 
 # Explicitly authenticate within the chunk to ensure authentication
-gs4_auth(scopes = "https://www.googleapis.com/auth/spreadsheets.readonly")
+#gs4_auth(scopes = "https://www.googleapis.com/auth/spreadsheets.readonly")
 
 # Read the Google Sheet to get data
-mapdata <- read_sheet("https://docs.google.com/spreadsheets/d/18IOWsex2gSMCFK3cfSJF3y4AfsEdyszM54Onqmc6OIA/edit#gid=0")
+mapdata <- read.csv("~/Desktop/website/files/Currentsites.csv", blank.lines.skip = TRUE)
+
+mapdata$Type<-factor(mapdata$Type)
+
+mapdata$Type <- droplevels(mapdata$Type)
+
+
 
 # Loading in range GEOJSON
 range <- geojsonio::geojson_read("~/Desktop/website/files/rangetry2.geojson", what = "sp")
